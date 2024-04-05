@@ -6,6 +6,7 @@ Make sure that you have the 995KFakeNewsCoruput_subset (995,000_rows.csv) in the
 when trying the cleaned csv, when using a dataset that already is on the local machine. When trying to load the cleaned data tokens will be seperated chars instead of words. This issue is solved by downloading 995,000_rows.csv fresh from Absalon. 
 
 **To recreate the conda env that is needed to run the notebook, open a terminal and run the command in the FakeNewsProject directory:** 
-conda create --name fake_news --file requirements
+conda create --n "fake_news" python=3.10
+pip install -r requirements.txt
 
 To run our notebook **Beware:** the computer we use to run our notebook used a server grade CPU and had 64 GB of ECC ram and may therefore have a hard time to run on other computers since we don't split the 999,500rows dataset up when cleaning. **Run the notebook at your own risk, you may experience crashes**.
