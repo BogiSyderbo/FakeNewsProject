@@ -7,10 +7,10 @@ Included in this repo there are .csv files for The LIAR set, as well as scraped 
 Make sure that you have the 995KFakeNewsCoruput_subset (995,000_rows.csv) in the directory. Sometimes there is an error
 when trying the cleaned csv, when using a dataset that already is on the local machine. When trying to load the cleaned data tokens will be seperated chars instead of words. This issue is solved by downloading 995,000_rows.csv fresh from Absalon. 
 
-**To recreate the conda env that is needed to run the notebook, open a terminal and run the command in the FakeNewsProject directory:** 
-conda create --n "fake_news" python=3.10
-conda activate fake_news
-pip install -r requirements.txt
+**To recreate the conda env that is needed to run the notebook, open a terminal and run the following commands in the FakeNewsProject directory:** 
+- conda create --n "fake_news" python=3.10
+- conda activate fake_news
+- pip install -r requirements.txt
 
 install the ipykernel package if prompted to when trying to run the notebook
 
