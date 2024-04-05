@@ -9,4 +9,6 @@ when trying the cleaned csv, when using a dataset that already is on the local m
 conda create --n "fake_news" python=3.10
 pip install -r requirements.txt
 
+install the ipykernel package if prompted to when trying to run the notebook
+
 To run our notebook **Beware:** the computer we use to run our notebook used a server grade CPU and had 64 GB of ECC ram and may therefore have a hard time to run on other computers since we don't split the 999,500rows dataset up when cleaning. **Run the notebook at your own risk, you may experience crashes**.
